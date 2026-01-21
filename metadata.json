@@ -1,0 +1,5 @@
+{
+  "name": "MotoTracker Angola",
+  "description": "Sistema de controle de viagens de moto para Jorge e William, com calendário de feriados de Angola e cálculos automáticos de custos.",
+  "requestFramePermissions": []
+}
