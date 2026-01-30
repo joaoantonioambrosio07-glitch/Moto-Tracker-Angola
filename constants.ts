@@ -1,8 +1,8 @@
 
 import { Holiday } from './types';
 
-export const TRIP_COST_PER_WAY = 300; // 300 Kz
-export const DAILY_TOTAL_POTENTIAL = TRIP_COST_PER_WAY * 2; // 600 Kz
+export const TRIP_COST_PER_WAY = 400; // 400 Kz
+export const DAILY_TOTAL_POTENTIAL = TRIP_COST_PER_WAY * 2; // 800 Kz
 
 export const ANGOLA_HOLIDAYS: Holiday[] = [
   { day: 1, month: 0, name: 'Ano Novo' },
@@ -17,8 +17,6 @@ export const ANGOLA_HOLIDAYS: Holiday[] = [
   { day: 25, month: 11, name: 'Dia de Natal' },
 ];
 
-// Variable holidays (approximate for general logic, would normally use an API)
-// 2024 Examples: Carnival (Feb 13), Good Friday (Mar 29)
 export const GET_VARIABLE_HOLIDAYS = (year: number): Holiday[] => {
   if (year === 2024) {
     return [
